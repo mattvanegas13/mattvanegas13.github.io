@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- This is a comment. -->
+        <meta charset="utf-8"/>
+        <!-- note that we can link a font but wer need to use google api--> 
+        <title>Meme exchange central</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> <!-- loads external library-->
+    </head>
+
+    <body>
+        <div class= "container" id = "doge">
+            <img src= "doge.jpg">
+        </div>
+
+        <div class= "container-title" id="title">
+            <h1> Welcome to the Meme Exchange </h1>
+            <p> Please enjoy your stay</p> 
+        </div>
+
+        <div class= "inline-code">
+            <h1 class= "rip"> lolol </h1>
+        </div>
+        <!-- Put all content here. -->
+        <a href="./contact_me.html"/> <!-- basically calls another file within the directory via relative path-->
+        <script src ="index.js"> </script>
+        <!--calls in javascript: for the record its good practice to link the js file at the end of the body since it ints with all html tags-->
+    </body>
+</html>
+
+<!--span is basically a div but for inline text n shit-->
+<!-- look into scss and compiler css -->
+<!-- jquery 
+    jquery selector 
+    similar to css uses class names, id's and tag n shit called in a manner such as $('html element').html("shit you want to change it to");
+
+    jquery and event handlers
+    example: 
+        $('element').on('click',function()
+        {
+            *some action*
+            $(this).html('wow lol') *note that this functions as it does in java which refers to the element that is passed into the first line of jquery
+        });

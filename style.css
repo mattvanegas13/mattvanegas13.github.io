@@ -1,0 +1,63 @@
+/*fill this in*/
+body {
+	font-family: sans-serif;
+}
+
+p {
+
+	text-align: left; /*text align for text*/ 
+} 
+
+/*note . for class # for id */
+/*div {
+	
+	background-color: blue;
+	color : white;
+}*/
+
+.title{
+	position:relative;
+	width: 100%
+	text:left;
+}
+
+.container-title{
+	position: absolute; /*absolute means from the edges of the page */
+	margin-left:0px;
+	width:30%;
+	display:inline-block;
+}
+
+.container {
+	display: inline-block;
+	max-width: 30%;
+	/* 50px; /* space between two divs*/
+}
+
+
+/*to find color scheme use colorsafe.co*/
+
+/*positioning */
+
+.position-test{
+	/*background:blue;*/
+	position: fixed; /*absolute, sticky (good for nav bar), relative -> relative means relative to its original position*/
+	width:; /*can use pixel values or percent -> percent is based on container -> the container can also be givien height and length*/
+	height:;
+
+
+
+}
+
+.position-static{
+
+
+
+}
+
+/*
+	box model
+		its the square shit (see the box in inspect element)
+		its offset margin , broder, padding, content> 
+		margin in particular is good for putting container next to each other.
+*/
