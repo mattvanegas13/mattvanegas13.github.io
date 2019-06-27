@@ -1,3 +1,3 @@
 # Matthew Vanegas
 personal website
-<a href="./fina.m3u">link</a>
+<a href="./final.m3u">link</a>
